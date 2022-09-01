@@ -17,9 +17,9 @@ Step 01. Data Description: In this first section the data will be collected and 
 
 Step 02. Data Categories and Metrics: In this section, new metrics and categories will be created to assist the EDA, such as the price per square meter, date categories (day of the week, month and year), square meters ratios (Living / Total Area and Kitchen / Total Area), floor categories, sale categories (avg. time for sell, fast sale, slow sale). These metrics and categories will help in exploratory data analysis and may improve the detection of typical parameters and outliers.
 
-Step 03. Exploratory Data Analysis: The exploratory data analysis section consists of univariate analysis, bivariate analysis and multivariate analysis to assist in understanding of the database. Factors affecting the price will be studied: square meters, number of rooms, floor category, distance to city centre, ad publishing date (weekday, month, year). The city centre location in St.Petersburg will be determined - typical parameters for city centre apartments will be found and compared to non-city centre apartments. 
+Step 03. Exploratory Data Analysis: The exploratory data analysis section consists of univariate analysis, bivariate analysis and multivariate analysis to assist in understanding of the database. Factors affecting the price will be studied: square meters, number of rooms, floor category, distance to city centre, ad publishing date (weekday, month, year). The city centre location in St.Petersburg will be determined based on the price per square meter.
 
-Steo 04. Correlation and Factor Analysis: In this section, factors that affect the apartment price will be analysed. Correlation analysis will be performed in two apartment categories: City Centre & Entire St.Petersburg.
+Steo 04. Correlation and Factor Analysis: In this section, factors that affect the apartment price will be analysed. Correlation analysis will be performed in two apartment groups: City Centre & Entire St.Petersburg. Typical parameters for city centre apartments will be discovered and compared between the groups.
 
 Step 05. Conclusions: This is a conclusion stage which provides typical parametres and other insights needed for creation of an automated system for anomalies and fraudulent activities tracking. In addition, some business questions are answered to show the applicability of the EDA's results in the business context.
 
@@ -46,15 +46,15 @@ Step 05. Conclusions: This is a conclusion stage which provides typical parametr
 
 * **Fast sale**: up to 45 days. **Long sale**: over 6 months.
 
-* **Factors that affect Pricing** (city centre): The total area affects the price most. The number of rooms affects the price as well. Ceiling height and floor have a similar moderate affect.
+* **Factors that affect Pricing** (city center): The total area affects the price most. The number of rooms affects the price as well. Ceiling height and floor have a similar moderate effect.
 
-* **Factors that affect Pricing** (entire St.Petersburg): The total area affects the price most, second factor affecting the price is the number of rooms. Third factor is the ceilings height.
+* **Factors that affect Pricing** (entire St.Petersburg): The total area affects the price most, the second factor affecting the price is the number of rooms. The third factor is the height of the ceilings.
 
 * **City Centre** of St. Petersburg ranges from 0 to 7 km.
 
-* **Highest average price by Date of the Week**: highest on Thursdays (5.88 million), followed by Saturday (5.80 million) and Sunday (5.76 million). The average price on Monday, Tuesday, Wednesday and Friday is approximately 5.7 million.
+* **Highest average price by Date of the Week**: highest on Thursdays (5.88 million), followed by Saturday (5.80 million) and Sunday (5.76 million). The average price on Monday, Tuesday, Wednesday and Friday are approximately 5.7 million.
 
-* **Highest average price by Month**: highest in December (6.0 million), second highest av.prices are in September (5.8 million). The lowest average prices are in October (5.6 million).
+* **Highest average price per Month**: highest in December (6.0 million), second highest is in September (5.8 million). The lowest average price is in October (5.6 million).
 
 * **Highest Price per Square Meter** in the region: city of St.Petersburg, 111215 Roubles per Square Meter.
 * **Lowest Price per Square Meter** in the region: city of Vyborg, 57703 Roubles per Square Meter.
