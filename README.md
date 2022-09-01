@@ -22,3 +22,39 @@ Step 03. Exploratory Data Analysis: The exploratory data analysis section consis
 Steo 04. Correlation and Factor Analysis: In this section, factors that affect the apartment price will be analysed. Correlation analysis will be performed in two apartment categories: City Centre & Entire St.Petersburg.
 
 Step 05. Conclusions: This is a conclusion stage which provides typical parametres and other insights needed for creation of an automated system for anomalies and fraudulent activities tracking. In addition, some business questions are answered to show the applicability of the EDA's results in the business context.
+
+**Insights**:
+
+|              | **City Center** | **Entire City** |
+|--------------------|-----------------|-----------------|
+| **Total Area**     | 85 sqm          | 60 sqm          |
+| **Last Price**     | 12.2 million    | 6.9 million     |
+| **Rooms**          | 3               | 2               |
+| **Ceiling Height** | 281 cm          | 269 cm          |
+| **Days for Sale (mean)**  | 216 days             | 164 days             |
+| **Days for Sale (median)**  | 92 days             | 91 days             |
+
+* **Most common total area** of the apartments for sale in St.Petersburg: between 30 and 45 sqm (1-rooms & 2-rooms apartments).
+
+* **Most common prices** of the apartments: from 1.8 million to 7 million. **The peak of sales** is in the price range from 3 to 5 million.
+
+* **Most popular apartments** have 1-room (average price: 8М), followed by 2-room apartments (average price: 7.5М)
+
+* **Most common ceiling heights**: 250cm (over 5500 apartments); 265cm (around 5000),300cm (around 4000 apartments).
+
+* The **average time to sell** is 165 days and the median is 91 days.
+
+* **Fast sale**: up to 45 days. **Long sale**: over 6 months.
+
+* **Factors that affect Pricing** (city centre): The total area affects the price most. The number of rooms affects the price as well. Ceiling height and floor have a similar moderate affect.
+
+* **Factors that affect Pricing** (entire St.Petersburg): The total area affects the price most, second factor affecting the price is the number of rooms. Third factor is the ceilings height.
+
+* **City Centre** of St. Petersburg ranges from 0 to 7 km.
+
+* **Highest average price by Date of the Week**: highest on Thursdays (5.88 million), followed by Saturday (5.80 million) and Sunday (5.76 million). The average price on Monday, Tuesday, Wednesday and Friday is approximately 5.7 million.
+
+* **Highest average price by Month**: highest in December (6.0 million), second highest av.prices are in September (5.8 million). The lowest average prices are in October (5.6 million).
+
+* **Highest Price per Square Meter** in the region: city of St.Petersburg, 111215 Roubles per Square Meter.
+* **Lowest Price per Square Meter** in the region: city of Vyborg, 57703 Roubles per Square Meter.
