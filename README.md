@@ -1,6 +1,6 @@
 # Exploratory Data Analysis(EDA) on Residential Properties
 
-Data science project to determine the market value of real estate objects and typical parameters of apartments for sale in St. Petersburg and other cities in the Leningrad Region.
+Data science project to determine the market value of real estate objects and typical parameters of apartments for sale in St. Petersburg and other cities in the Region.
 
 ## 1.0 Business Problem
 
